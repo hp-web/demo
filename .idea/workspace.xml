@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3db10a04-67fd-45f5-8cbb-b615fbeafba6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatis/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatis/Mybatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatis/MybatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatis/dao/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/dbconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/conf/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CountryMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Test_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Test_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/DemoApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Test_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Test_01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/listener/ExtentTestNGIReporterListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/listener/ExtentTestNGIReporterListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/listener/ExtentTestNGIReporterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/listener/ExtentTestNGIReporterListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/DemoApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/demo/DemoApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -34,7 +39,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UCW7TVIaJNGMpFZRgnx4Juxcec" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -43,15 +50,20 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PageObjectModel-master" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java_auotmate\demo\src\main\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java_auotmate\demo\src\main\resources\conf" />
+      <recent name="D:\java_auotmate\demo\src\main\resources\mapper" />
+      <recent name="D:\java_auotmate\demo\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.Test_01.TestCase">
+  <component name="RunManager" selected="TestNG.MybatisTest.test01">
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -59,17 +71,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/java_auotmate/demo/src/main/resources/config_testng/baidu_testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config_testng/baidu_testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.MybatisTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_01.TestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.MybatisTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.MybatisTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.mybatis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.mybatis" />
+      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.MybatisTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +152,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo" />
       <option name="MAIN_CLASS_NAME" value="com.example.demo.Test_01" />
-      <option name="METHOD_NAME" value="TestCase" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -89,8 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Test_01.TestCase" />
-        <item itemvalue="TestNG.D:/java_auotmate/demo/src/main/resources/config_testng/baidu_testng.xml" />
+        <item itemvalue="TestNG.MybatisTest.test01" />
+        <item itemvalue="TestNG.MybatisTest" />
+        <item itemvalue="TestNG.MybatisTest.test" />
+        <item itemvalue="TestNG.MybatisTest.test1" />
+        <item itemvalue="TestNG.Test_01" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +201,12 @@
       <workItem from="1576909321920" duration="521000" />
       <workItem from="1576909924423" duration="3962000" />
       <workItem from="1576936711187" duration="1546000" />
-      <workItem from="1576999787624" duration="4128000" />
+      <workItem from="1576999787624" duration="6508000" />
+      <workItem from="1577196318593" duration="2491000" />
+      <workItem from="1577515409331" duration="1039000" />
+      <workItem from="1577521647513" duration="12135000" />
+      <workItem from="1577609652530" duration="287000" />
+      <workItem from="1577611780741" duration="2405000" />
     </task>
     <servers />
   </component>
@@ -137,37 +217,49 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="295" y="283" key="#SQL_Dialects" timestamp="1577596390500">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="295" y="283" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1577596390500" />
+    <state x="723" y="399" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577605454185">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="723" y="399" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577605454185" />
+    <state x="862" y="319" key="#com.intellij.ide.util.MemberChooser" timestamp="1577598319300">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="862" y="319" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577598319300" />
     <state x="317" y="78" key="CommitChangelistDialog2" timestamp="1577002423505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="317" y="78" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577002423505" />
-    <state x="714" y="231" key="FileChooserDialogImpl" timestamp="1577001466770">
+    <state x="714" y="231" key="FileChooserDialogImpl" timestamp="1577021662778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="714" y="231" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577001466770" />
-    <state width="1709" height="174" key="GridCell.Tab.0.bottom" timestamp="1576937031874">
+    <state x="714" y="231" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577021662778" />
+    <state width="1486" height="316" key="GridCell.Tab.0.bottom" timestamp="1577614052410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1709" height="174" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576937031874" />
-    <state width="1709" height="174" key="GridCell.Tab.0.center" timestamp="1576937031871">
+    <state width="1486" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577614052410" />
+    <state width="1486" height="316" key="GridCell.Tab.0.center" timestamp="1577614052410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1709" height="174" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576937031871" />
-    <state width="1709" height="174" key="GridCell.Tab.0.left" timestamp="1576937031871">
+    <state width="1486" height="316" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577614052410" />
+    <state width="1486" height="316" key="GridCell.Tab.0.left" timestamp="1577614052409">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1709" height="174" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576937031871" />
-    <state width="1709" height="174" key="GridCell.Tab.0.right" timestamp="1576937031872">
+    <state width="1486" height="316" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577614052409" />
+    <state width="1486" height="316" key="GridCell.Tab.0.right" timestamp="1577614052410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1709" height="174" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576937031872" />
+    <state width="1486" height="316" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577614052410" />
     <state x="665" y="232" key="Maven.ArtifactSearchDialog" timestamp="1576912105236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="232" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576912105236" />
-    <state x="631" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1576999793231">
+    <state x="631" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1577611774047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="631" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576999793231" />
+    <state x="631" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577611774047" />
   </component>
 </project>

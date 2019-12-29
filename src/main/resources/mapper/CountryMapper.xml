@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace要全局唯一，用于区分不同的mapper，一般是用对应的接口的全限定名-->
+<!--<mapper namespace="mapper.CountryMapper">-->
+<mapper namespace="com.example.mybatis.dao.EmployeeMapper">
+
+    <!--查询语句，id在同个mapper文件中也要唯一，一般是方法的名称-->
+
+    <!--    public Employee getEmpById(Integer id);-->
+
+<!--    -->
+<!--    <select id="selectEmp" resultType="com.example.mybatis.Employee">-->
+<!--        select * from tbl_employee where id = #{id}-->
+<!--    </select>-->
+    <select id="getEmpById" resultType="com.example.mybatis.Employee">
+        select * from tbl_employee where id = #{id}
+    </select>
+
+</mapper>

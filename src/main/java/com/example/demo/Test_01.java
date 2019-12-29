@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class Test_01 {
     @Test
     public void TestCase(){
-        System.setProperty("webdriver.chrome.driver",getClass().getResource("/chromedriver").getPath());
+        System.setProperty("webdriver.chrome.driver",getClass().getResource("/chromedriver.exe").getPath());
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.baidu.com");
     }
