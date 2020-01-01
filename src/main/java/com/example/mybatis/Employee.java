@@ -1,10 +1,17 @@
 package com.example.mybatis;
 
 public class Employee {
-    private Integer id;
+    private String id;
     private String last_name;
     private String email;
     private String gender;
+
+    public Employee(String id ,String last_name, String email, String gender) {
+        this.id = id;
+        this.last_name = last_name;
+        this.email = email;
+        this.gender = gender;
+    }
 
     @Override
     public String toString() {
@@ -15,16 +22,13 @@ public class Employee {
                 ", gender='" + gender + '\'' +
                 '}';
     }
-
-    public Integer getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(String id) {
         this.id = id;
     }
-
-
 
     public String getEmail() {
         return email;
