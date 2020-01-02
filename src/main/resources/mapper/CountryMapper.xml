@@ -13,7 +13,7 @@
 <!--    <select id="selectEmp" resultType="com.example.mybatis.Employee">-->
 <!--        select * from tbl_employee where id = #{id}-->
 <!--    </select>-->
-    <select id="getEmpById" resultType="map" parameterType="map">
+    <select id="getEmpById" resultType="com.example.mybatis.Employee" parameterType="map">
         select * from tbl_employee where id in
        <foreach collection="ids"   item="item" index ="index" open="(" separator="," close=")">
             #{item}

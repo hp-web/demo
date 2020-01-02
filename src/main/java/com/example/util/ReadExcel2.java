@@ -91,7 +91,8 @@ public class ReadExcel2 {
                     // 以下是判断数据的类型
                     switch (cell.getCellType()) {
                         case HSSFCell.CELL_TYPE_NUMERIC: // 数字
-                            cellValue = cell.getNumericCellValue() + "";
+                            cell.setCellType(HSSFCell.CELL_TYPE_STRING);
+                            cellValue = cell.getStringCellValue();
                             break;
                         case HSSFCell.CELL_TYPE_STRING: // 字符串
                             cellValue = cell.getStringCellValue();
@@ -143,28 +144,23 @@ public class ReadExcel2 {
     public static void writeExcel(List<List<String>> dataList, String finalXlsxPath) {
         OutputStream out = null;
         try {
-
             // 读取Excel文档
             File finalXlsxFile = new File(finalXlsxPath);
             Workbook workBook = getWorkbok(finalXlsxFile);
             // sheet 对应一个工作页
             Sheet sheet = workBook.getSheetAt(0);
-
             //删除原有数据，除了属性列
             int rowNumber = sheet.getLastRowNum();
             for (int i = 1; i <= rowNumber; i++) {
                 Row row = sheet.getRow(i);
                 sheet.removeRow(row);
             }
-
             // 创建文件输出流，输出电子表格：这个必须有，否则你在sheet上做的任何操作都不会有效
             out = new FileOutputStream(finalXlsxPath);
             workBook.write(out);
-
             //写一行
             for (int j = 0; j < dataList.size(); j++) {
                 Row row = sheet.createRow(j);
-
                 //写一列
                 List<String> datas = dataList.get(j);
                 for (int k = 0; k < datas.size(); k++) {
@@ -204,7 +200,7 @@ public class ReadExcel2 {
 
     @Test
     public Map<List<String>, Map<String,Employee>> getExcelResult() {
-        List<List<String>> resultList = ReadExcel2.readExcel("src/main/resources/excel/test.xlsx");
+        List<List<String>> resultList = ReadExcel2.readExcel("src/main/resources/excel/inputTest.xlsx");
         List<String> ids = new ArrayList<>();
         Map<String ,Employee> resultMap = new HashMap<>();
         Map<List<String>,Map<String ,Employee>> finalResultMap = new HashMap<>();
@@ -214,14 +210,23 @@ public class ReadExcel2 {
                 List<String> cellList = resultList.get(i);
                 int cellSize = cellList.size();
                 //一条数据
-                employee = new Employee(cellList.get(cellList.size()-4).toString(),cellList.get(cellSize-3).toString(),
-                        cellList.get(cellList.size()-2).toString(),cellList.get(cellList.size()-1).toString());
-                resultMap.put(cellList.get(cellList.size()-4).toString(),employee);
+                employee = new Employee(cellList.get(0).toString(),cellList.get(1).toString(),
+                        cellList.get(2).toString(),cellList.get(3).toString(),cellList.get(4).toString());
+                resultMap.put(cellList.get(0).toString(),employee);
                 //所有id集合
-                ids.add(cellList.get(cellList.size()-4).toString());
+                ids.add(cellList.get(0).toString());
             }
             finalResultMap.put(ids,resultMap);
         }
         return finalResultMap;
     }
+
+//    public void getExcelResultAll(){
+//        List<List<String>> resultList = ReadExcel2.readExcel("src/main/resources/excel/inputTest.xlsx");
+//
+//
+//
+//
+//    }
+
 }
