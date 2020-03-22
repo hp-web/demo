@@ -2,22 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3db10a04-67fd-45f5-8cbb-b615fbeafba6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/excel/inputTest.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/excel/outputTest.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/TestSceen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gettxt/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gettxt/1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mybatis/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatis/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mybatis/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatis/MybatisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mybatis/dao/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mybatis/dao/EmployeeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/util/ReadExcel2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/util/ReadExcel2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/excel/test.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CountryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CountryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Test_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Test_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Test_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Test_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config_testng/baidu_testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="16" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,93 +52,54 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PageObjectModel-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/CucumberTutorial-master" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_auotmate\demo\src" />
+      <recent name="D:\java_auotmate\demo\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java_auotmate\demo\src\main\resources" />
       <recent name="D:\java_auotmate\demo\src\main\resources\excel" />
       <recent name="D:\java_auotmate\demo\src\main\resources\conf" />
       <recent name="D:\java_auotmate\demo\src\main\resources\mapper" />
-      <recent name="D:\java_auotmate\demo\src\main\resources" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java_auotmate\demo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MybatisTest.test01">
+  <component name="RunManager" selected="Application.TestSceen">
+    <configuration name="TestSceen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.TestSceen" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Test_01" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.MybatisTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.MybatisTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.MybatisTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest.test01 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.MybatisTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,13 +122,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_01.TestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Test_01" />
+      <option name="METHOD_NAME" value="TestCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_01.testLog4j" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Test_01" />
+      <option name="METHOD_NAME" value="testLog4j" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSceen" />
+        <item itemvalue="TestNG.Test_01.TestCase" />
+        <item itemvalue="TestNG.Test_01.testLog4j" />
+        <item itemvalue="Application.Test_01" />
         <item itemvalue="TestNG.MybatisTest.test01" />
-        <item itemvalue="TestNG.MybatisTest (3)" />
-        <item itemvalue="TestNG.MybatisTest" />
-        <item itemvalue="TestNG.MybatisTest (2)" />
-        <item itemvalue="TestNG.MybatisTest.test01 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +210,10 @@
       <workItem from="1577879897174" duration="338000" />
       <workItem from="1577880541861" duration="5000" />
       <workItem from="1577880845628" duration="28719000" />
+      <workItem from="1579001177794" duration="5213000" />
+      <workItem from="1580921884773" duration="39000" />
+      <workItem from="1584856556307" duration="3725000" />
+      <workItem from="1584880205855" duration="3800000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis">
       <created>1577614788115</created>
@@ -224,6 +227,19 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -247,54 +263,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="317" y="78" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577614784893" />
-    <state x="714" y="231" key="FileChooserDialogImpl" timestamp="1577021662778">
+    <state x="714" y="231" key="FileChooserDialogImpl" timestamp="1580921924569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="714" y="231" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577021662778" />
-    <state width="1603" height="331" key="GridCell.Tab.0.bottom" timestamp="1577979153288">
+    <state x="714" y="231" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580921924569" />
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1584883004168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1603" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577979153288" />
-    <state width="1603" height="331" key="GridCell.Tab.0.center" timestamp="1577979153288">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584883004168" />
+    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1584883004168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1603" height="331" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577979153288" />
-    <state width="1603" height="331" key="GridCell.Tab.0.left" timestamp="1577979153288">
+    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584883004168" />
+    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1584883004168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1603" height="331" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577979153288" />
-    <state width="1603" height="331" key="GridCell.Tab.0.right" timestamp="1577979153288">
+    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584883004168" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1584883004168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1603" height="331" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577979153288" />
-    <state width="1603" height="331" key="GridCell.Tab.1.bottom" timestamp="1577979153288">
+    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584883004168" />
+    <state width="914" height="357" key="GridCell.Tab.1.bottom" timestamp="1584882013323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1603" height="331" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577979153288" />
-    <state width="1603" height="331" key="GridCell.Tab.1.center" timestamp="1577979153288">
+    <state width="914" height="357" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584882013323" />
+    <state width="914" height="357" key="GridCell.Tab.1.center" timestamp="1584882013323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1603" height="331" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577979153288" />
-    <state width="1603" height="331" key="GridCell.Tab.1.left" timestamp="1577979153288">
+    <state width="914" height="357" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584882013323" />
+    <state width="914" height="357" key="GridCell.Tab.1.left" timestamp="1584882013323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1603" height="331" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577979153288" />
-    <state width="1603" height="331" key="GridCell.Tab.1.right" timestamp="1577979153288">
+    <state width="914" height="357" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584882013323" />
+    <state width="914" height="357" key="GridCell.Tab.1.right" timestamp="1584882013323">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1603" height="331" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577979153288" />
+    <state width="914" height="357" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584882013323" />
     <state x="665" y="232" key="Maven.ArtifactSearchDialog" timestamp="1577713538301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="232" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577713538301" />
+    <state x="658" y="115" key="SettingsEditor" timestamp="1584880695166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="658" y="115" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584880695166" />
     <state x="466" y="261" key="Vcs.Push.Dialog.v2" timestamp="1577614796029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="466" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577614796029" />
-    <state x="631" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1577880845151">
+    <state x="631" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1584880204930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="631" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577880845151" />
+    <state x="631" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584880204930" />
     <state x="688" y="269" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577713528658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -314,5 +334,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo$Test_01.ic" NAME="Test_01 Coverage Results" MODIFIED="1579003711910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.demo.*</FILTER>
+    </SUITE>
   </component>
 </project>
