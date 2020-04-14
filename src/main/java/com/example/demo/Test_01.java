@@ -64,6 +64,55 @@ public class Test_01 {
 
 
     }
+    
+    //1111
+    
+    public static void BasetoPdffile(String pdfBase64Str,String filepath){
+BufferedInputStream bis = null;
+FileOutputStream fos = null;
+BufferedOutputStream bos = null;
+try{
+byte[] bytes=Base64.decode(pdfBase64Str);
+ByteArrayInputStream byteArrayInputStream=new ByteArrayInputStream(bytes);
+bis=new BufferedInputStream(byteArrayInputStream);
+File file=new File(filepath);
+File path=file.getParentFile();
+if(!path.exists()){
+path.mkdirs();
+}
+fos=new FileOutputStream(file);
+bos=new BufferedOutputStream(fos);
+
+byte[] buffer=new byte[1024];
+int length=bis.read(buffer);
+while(length!=-1){
+bos.write(buffer,0,length);
+length=bis.read(buffer);
+}
+bos.flush();
+}catch(Exception e){
+e.printStackTrace();
+}finally {
+try{
+bis.close();
+bos.close();
+fos.close();
+}catch (IOException e){
+e.printStackTrace();
+}
+}
+}
+
+ 
+
+public static void main(String[] args) {
+
+String pdf_data="####";
+String fileName="&&&&&";
+BasetoPdffile(pdf_data,"D:\\新建文件夹\\PDF文件\\"+fileName);
+}
+    
+    
 
 
 }
