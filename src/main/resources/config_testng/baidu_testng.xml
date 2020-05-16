@@ -3,16 +3,14 @@
 
 <suite name="baidu" >
     <listeners>
-        <listener class-name="com.example.listener.ExtentTestNGIReporterListener"></listener>
+        <listener class-name="com.example.listener.ExtentTestNGIReporterListener"/>
     </listeners>
 
     <test name="baidu_page">
         <classes>
             <!--<class name="com.example.demo.DemoApplicationTests"></class>-->
-            <class name="com.example.demo.Test_01"></class>
-
+            <class name="com.example.demo.Test_01"/>
         </classes>
-
     </test>
 
 

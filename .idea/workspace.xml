@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3db10a04-67fd-45f5-8cbb-b615fbeafba6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/TestSceen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" beforeDir="false" />
+    <list default="true" id="3db10a04-67fd-45f5-8cbb-b615fbeafba6" name="Default Changelist" comment="add remote server selenoid">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/DriverUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gettxt/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gettxt/1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Test_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Test_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config_testng/baidu_testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config_testng/baidu_testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Test_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Test_01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config_testng/baidu_testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +33,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -52,25 +55,26 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/CucumberTutorial-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java_auotmate\demo\src" />
-      <recent name="D:\java_auotmate\demo\src\main\resources" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\java_auotmate\demo\src\main\resources" />
       <recent name="D:\java_auotmate\demo\src\main\resources\excel" />
       <recent name="D:\java_auotmate\demo\src\main\resources\conf" />
       <recent name="D:\java_auotmate\demo\src\main\resources\mapper" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_auotmate\demo" />
+      <recent name="D:\java_auotmate\demo\src" />
+      <recent name="D:\java_auotmate\demo\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TestSceen">
+  <component name="RunManager" selected="TestNG.D:/java_auotmate/demo/src/main/resources/config_testng/baidu_testng.xml">
     <configuration name="TestSceen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.demo.TestSceen" />
       <module name="demo" />
@@ -104,25 +108,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/java_auotmate/demo/src/main/resources/config_testng/baidu_testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.example.mybatis.MybatisTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config_testng/baidu_testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_01.TestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_01.testRandom" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -132,7 +128,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo" />
       <option name="MAIN_CLASS_NAME" value="com.example.demo.Test_01" />
-      <option name="METHOD_NAME" value="TestCase" />
+      <option name="METHOD_NAME" value="testRandom" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,7 +136,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_01.testLog4j" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_01.valueOfTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -150,7 +146,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo" />
       <option name="MAIN_CLASS_NAME" value="com.example.demo.Test_01" />
-      <option name="METHOD_NAME" value="testLog4j" />
+      <option name="METHOD_NAME" value="valueOfTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -160,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestSceen" />
-        <item itemvalue="TestNG.Test_01.TestCase" />
-        <item itemvalue="TestNG.Test_01.testLog4j" />
+        <item itemvalue="TestNG.D:/java_auotmate/demo/src/main/resources/config_testng/baidu_testng.xml" />
+        <item itemvalue="TestNG.Test_01.valueOfTest" />
         <item itemvalue="Application.Test_01" />
-        <item itemvalue="TestNG.MybatisTest.test01" />
+        <item itemvalue="TestNG.Test_01.testRandom" />
+        <item itemvalue="Application.TestSceen" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +209,15 @@
       <workItem from="1579001177794" duration="5213000" />
       <workItem from="1580921884773" duration="39000" />
       <workItem from="1584856556307" duration="3725000" />
-      <workItem from="1584880205855" duration="3800000" />
+      <workItem from="1584880205855" duration="4409000" />
+      <workItem from="1585473182420" duration="8661000" />
+      <workItem from="1585668740604" duration="176000" />
+      <workItem from="1585754914315" duration="785000" />
+      <workItem from="1587033556828" duration="1000" />
+      <workItem from="1587561101087" duration="3558000" />
+      <workItem from="1588166258226" duration="3466000" />
+      <workItem from="1589627245965" duration="1463000" />
+      <workItem from="1589633542761" duration="220000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis">
       <created>1577614788115</created>
@@ -247,82 +251,62 @@
     <option name="LAST_COMMIT_MESSAGE" value="mybatis" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="295" y="283" key="#SQL_Dialects" timestamp="1577596390500">
+    <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587561420803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="295" y="283" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1577596390500" />
-    <state x="723" y="399" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577605454185">
+    <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587561420803" />
+    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1589633749061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="723" y="399" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577605454185" />
-    <state x="862" y="319" key="#com.intellij.ide.util.MemberChooser" timestamp="1577975383519">
+    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589633749061" />
+    <state x="714" y="231" key="FileChooserDialogImpl" timestamp="1585755100659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="862" y="319" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577975383519" />
-    <state x="317" y="78" key="CommitChangelistDialog2" timestamp="1577614784893">
+    <state x="714" y="231" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585755100659" />
+    <state width="1877" height="141" key="GridCell.Tab.0.bottom" timestamp="1589633479306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="317" y="78" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577614784893" />
-    <state x="714" y="231" key="FileChooserDialogImpl" timestamp="1580921924569">
+    <state width="1877" height="141" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589633479306" />
+    <state width="1877" height="141" key="GridCell.Tab.0.center" timestamp="1589633479306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="714" y="231" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580921924569" />
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1584883004168">
+    <state width="1877" height="141" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589633479306" />
+    <state width="1877" height="141" key="GridCell.Tab.0.left" timestamp="1589633479306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584883004168" />
-    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1584883004168">
+    <state width="1877" height="141" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589633479306" />
+    <state width="1877" height="141" key="GridCell.Tab.0.right" timestamp="1589633479306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584883004168" />
-    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1584883004168">
+    <state width="1877" height="141" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589633479306" />
+    <state width="1877" height="141" key="GridCell.Tab.1.bottom" timestamp="1589633479307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584883004168" />
-    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1584883004168">
+    <state width="1877" height="141" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589633479307" />
+    <state width="1877" height="141" key="GridCell.Tab.1.center" timestamp="1589633479306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584883004168" />
-    <state width="914" height="357" key="GridCell.Tab.1.bottom" timestamp="1584882013323">
+    <state width="1877" height="141" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589633479306" />
+    <state width="1877" height="141" key="GridCell.Tab.1.left" timestamp="1589633479306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="357" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584882013323" />
-    <state width="914" height="357" key="GridCell.Tab.1.center" timestamp="1584882013323">
+    <state width="1877" height="141" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589633479306" />
+    <state width="1877" height="141" key="GridCell.Tab.1.right" timestamp="1589633479307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="357" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584882013323" />
-    <state width="914" height="357" key="GridCell.Tab.1.left" timestamp="1584882013323">
+    <state width="1877" height="141" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589633479307" />
+    <state x="658" y="115" key="SettingsEditor" timestamp="1589633765085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="357" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584882013323" />
-    <state width="914" height="357" key="GridCell.Tab.1.right" timestamp="1584882013323">
+    <state x="658" y="115" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589633765085" />
+    <state x="631" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1589633550426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="357" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584882013323" />
-    <state x="665" y="232" key="Maven.ArtifactSearchDialog" timestamp="1577713538301">
+    <state x="631" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589633550426" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589633554830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="665" y="232" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577713538301" />
-    <state x="658" y="115" key="SettingsEditor" timestamp="1584880695166">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="658" y="115" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584880695166" />
-    <state x="466" y="261" key="Vcs.Push.Dialog.v2" timestamp="1577614796029">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="466" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577614796029" />
-    <state x="631" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1584880204930">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="631" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584880204930" />
-    <state x="688" y="269" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577713528658">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="688" y="269" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577713528658" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1577895927731">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577895927731" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589633554830" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
