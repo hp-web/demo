@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3db10a04-67fd-45f5-8cbb-b615fbeafba6" name="Default Changelist" comment="add remote server selenoid">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/DriverUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Test_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Test_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config_testng/baidu_testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config_testng/baidu_testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/util/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/util/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/DemoApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Test_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Test_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/listener/ExtentTestNGIReporterListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/listener/ExtentTestNGIReporterListener$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/listener/ExtentTestNGIReporterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/listener/ExtentTestNGIReporterListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/DemoApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/demo/DemoApplicationTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +213,7 @@
       <workItem from="1587561101087" duration="3558000" />
       <workItem from="1588166258226" duration="3466000" />
       <workItem from="1589627245965" duration="1463000" />
-      <workItem from="1589633542761" duration="220000" />
+      <workItem from="1589633542761" duration="1636000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis">
       <created>1577614788115</created>
@@ -226,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577614788115</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add remote server selenoid">
+      <created>1589633784113</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589633784113</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,37 +251,38 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="mybatis" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis" />
+    <MESSAGE value="add remote server selenoid" />
+    <option name="LAST_COMMIT_MESSAGE" value="add remote server selenoid" />
   </component>
   <component name="WindowStateProjectService">
     <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587561420803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587561420803" />
-    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1589633749061">
+    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1589633812596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589633749061" />
+    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589633812596" />
     <state x="714" y="231" key="FileChooserDialogImpl" timestamp="1585755100659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="231" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585755100659" />
-    <state width="1877" height="141" key="GridCell.Tab.0.bottom" timestamp="1589633479306">
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom" timestamp="1589639629326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="141" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589633479306" />
-    <state width="1877" height="141" key="GridCell.Tab.0.center" timestamp="1589633479306">
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589639629326" />
+    <state width="1877" height="172" key="GridCell.Tab.0.center" timestamp="1589639629325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="141" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589633479306" />
-    <state width="1877" height="141" key="GridCell.Tab.0.left" timestamp="1589633479306">
+    <state width="1877" height="172" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589639629325" />
+    <state width="1877" height="172" key="GridCell.Tab.0.left" timestamp="1589639629325">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="141" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589633479306" />
-    <state width="1877" height="141" key="GridCell.Tab.0.right" timestamp="1589633479306">
+    <state width="1877" height="172" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589639629325" />
+    <state width="1877" height="172" key="GridCell.Tab.0.right" timestamp="1589639629326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="141" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589633479306" />
+    <state width="1877" height="172" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589639629326" />
     <state width="1877" height="141" key="GridCell.Tab.1.bottom" timestamp="1589633479307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -299,14 +303,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="115" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589633765085" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1589633788049">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589633788049" />
     <state x="631" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1589633550426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="631" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589633550426" />
-    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589633554830">
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589645554438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589633554830" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589645554438" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
