@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3db10a04-67fd-45f5-8cbb-b615fbeafba6" name="Default Changelist" comment="add remote server selenoid">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/util/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/util/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/DemoApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Test_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Test_01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/listener/ExtentTestNGIReporterListener$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/listener/ExtentTestNGIReporterListener$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/listener/ExtentTestNGIReporterListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/listener/ExtentTestNGIReporterListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/demo/DemoApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/demo/DemoApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,6 +208,7 @@
       <workItem from="1588166258226" duration="3466000" />
       <workItem from="1589627245965" duration="1463000" />
       <workItem from="1589633542761" duration="1636000" />
+      <workItem from="1589715139231" duration="949000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis">
       <created>1577614788115</created>
@@ -259,10 +254,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587561420803" />
-    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1589633812596">
+    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1589645568040">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589633812596" />
+    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589645568040" />
     <state x="714" y="231" key="FileChooserDialogImpl" timestamp="1585755100659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -303,18 +298,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="115" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589633765085" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1589633788049">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1589645571837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589633788049" />
-    <state x="631" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1589633550426">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589645571837" />
+    <state x="631" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1589715410645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="631" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589633550426" />
-    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589645554438">
+    <state x="631" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589715410645" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589716255374">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589645554438" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589716255374" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
