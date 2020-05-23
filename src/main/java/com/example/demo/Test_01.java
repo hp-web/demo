@@ -31,13 +31,14 @@ public class Test_01 {
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", false);
         RemoteWebDriver driver = new RemoteWebDriver(
-                URI.create("http://192.168.1.6:4444/wd/hub").toURL(),
+                URI.create("http://192.168.1.10:4444/wd/hub").toURL(),
                 capabilities
         );
         //System.setProperty("webdriver.chrome.driver",getClass().getResource("/chromedriver.exe").getPath());
         // WebDriver driver = new ChromeDriver();
 
         driver.get("http://www.baidu.com");
+        driver.manage().window().maximize();
 //        new WebDriverWait(driver, 300).until(driver -> ((JavascriptExecutor) driver)
 //                .executeScript("return document.readyState").equals("complete"));
         driver.findElement(By.id("kw")).sendKeys("豆瓣");

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3db10a04-67fd-45f5-8cbb-b615fbeafba6" name="Default Changelist" comment="add remote server selenoid">
+    <list default="true" id="3db10a04-67fd-45f5-8cbb-b615fbeafba6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/Test_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/Test_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/demo/Test_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/demo/Test_01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,33 +66,7 @@
       <recent name="D:\java_auotmate\demo\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/java_auotmate/demo/src/main/resources/config_testng/baidu_testng.xml">
-    <configuration name="TestSceen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.TestSceen" />
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.demo.Test_01" />
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Test_01.TestCase (3)">
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
@@ -98,17 +74,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/java_auotmate/demo/src/main/resources/config_testng/baidu_testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/config_testng/baidu_testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test_01.testRandom" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_01.TestCase (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -118,7 +84,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo" />
       <option name="MAIN_CLASS_NAME" value="com.example.demo.Test_01" />
-      <option name="METHOD_NAME" value="testRandom" />
+      <option name="METHOD_NAME" value="TestCase" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -126,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_01.valueOfTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Test_01.TestCase (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
@@ -136,7 +102,61 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.demo" />
       <option name="MAIN_CLASS_NAME" value="com.example.demo.Test_01" />
-      <option name="METHOD_NAME" value="valueOfTest" />
+      <option name="METHOD_NAME" value="TestCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_01.TestCase (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Test_01" />
+      <option name="METHOD_NAME" value="TestCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_01.TestCase (5)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Test_01" />
+      <option name="METHOD_NAME" value="TestCase" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_01.TestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.demo.Test_01" />
+      <option name="METHOD_NAME" value="TestCase" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/java_auotmate/demo/src/main/resources/config_testng/baidu_testng.xml" />
-        <item itemvalue="TestNG.Test_01.valueOfTest" />
-        <item itemvalue="Application.Test_01" />
-        <item itemvalue="TestNG.Test_01.testRandom" />
-        <item itemvalue="Application.TestSceen" />
+        <item itemvalue="TestNG.Test_01.TestCase (3)" />
+        <item itemvalue="TestNG.Test_01.TestCase" />
+        <item itemvalue="TestNG.Test_01.TestCase (2)" />
+        <item itemvalue="TestNG.Test_01.TestCase (1)" />
+        <item itemvalue="TestNG.Test_01.TestCase (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +228,9 @@
       <workItem from="1588166258226" duration="3466000" />
       <workItem from="1589627245965" duration="1463000" />
       <workItem from="1589633542761" duration="1636000" />
-      <workItem from="1589715139231" duration="949000" />
+      <workItem from="1589715139231" duration="2302000" />
+      <workItem from="1590071482803" duration="4067000" />
+      <workItem from="1590218310089" duration="1425000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis">
       <created>1577614788115</created>
@@ -224,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589633784113</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add remote server selenoid">
+      <created>1589716273026</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589716273026</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,30 +283,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587561420803" />
-    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1589645568040">
+    <state x="585" y="113" key="CommitChangelistDialog2" timestamp="1589716271975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589645568040" />
+    <state x="585" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589716271975" />
     <state x="714" y="231" key="FileChooserDialogImpl" timestamp="1585755100659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="231" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585755100659" />
-    <state width="1877" height="172" key="GridCell.Tab.0.bottom" timestamp="1589639629326">
+    <state width="1877" height="349" key="GridCell.Tab.0.bottom" timestamp="1590219059410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589639629326" />
-    <state width="1877" height="172" key="GridCell.Tab.0.center" timestamp="1589639629325">
+    <state width="1877" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590219059410" />
+    <state width="1877" height="349" key="GridCell.Tab.0.center" timestamp="1590219059410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589639629325" />
-    <state width="1877" height="172" key="GridCell.Tab.0.left" timestamp="1589639629325">
+    <state width="1877" height="349" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590219059410" />
+    <state width="1877" height="349" key="GridCell.Tab.0.left" timestamp="1590219059410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589639629325" />
-    <state width="1877" height="172" key="GridCell.Tab.0.right" timestamp="1589639629326">
+    <state width="1877" height="349" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590219059410" />
+    <state width="1877" height="349" key="GridCell.Tab.0.right" timestamp="1590219059410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="172" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589639629326" />
+    <state width="1877" height="349" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590219059410" />
     <state width="1877" height="141" key="GridCell.Tab.1.bottom" timestamp="1589633479307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -298,18 +327,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="115" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589633765085" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1589645571837">
+    <state x="657" y="228" key="Vcs.Push.Dialog.v2" timestamp="1589716276307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589645571837" />
-    <state x="631" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1589715410645">
+    <state x="657" y="228" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589716276307" />
+    <state x="631" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1590218311528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="631" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589715410645" />
-    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589716255374">
+    <state x="631" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590218311528" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590219737917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589716255374" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590219737917" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
