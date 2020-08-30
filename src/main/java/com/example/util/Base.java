@@ -1,12 +1,31 @@
 package com.example.util;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 
 public class Base {
+
+
+    public static Properties prop;
+    public static WebDriver driver;
+
+
+
+
+
+    public Base(){
+        prop = new Properties();
+
+
+    }
+
+
+
 
     /*
     * 获取页面文本

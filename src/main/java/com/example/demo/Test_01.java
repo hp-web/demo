@@ -1,11 +1,8 @@
 package com.example.demo;
 
+import com.example.UtilsDriver.GetDriver;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
@@ -14,49 +11,49 @@ import ru.yandex.qatools.ashot.coordinates.WebDriverCoordsProvider;
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.*;
-import java.net.URI;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-public class Test_01 {
+public class Test_01  {
 
+    GetDriver getDriver = new  GetDriver();
     public static final Logger logger = Logger.getLogger(Test_01.class);
 
     @Test
     public void TestCase() throws IOException, InterruptedException {
         //使用remote driver
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setBrowserName("chrome");
-        capabilities.setVersion("78.0");
-        capabilities.setCapability("enableVNC", true);
-        capabilities.setCapability("enableVideo", false);
-        RemoteWebDriver driver = new RemoteWebDriver(
-                URI.create("http://192.168.1.10:4444/wd/hub").toURL(),
-                capabilities
-        );
-        //System.setProperty("webdriver.chrome.driver",getClass().getResource("/chromedriver.exe").getPath());
-        // WebDriver driver = new ChromeDriver();
+//        DesiredCapabilities capabilities = new DesiredCapabilities();
+//        capabilities.setBrowserName("chrome");
+//        capabilities.setVersion("78.0");
+//        capabilities.setCapability("enableVNC", true);
+//        capabilities.setCapability("enableVideo", false);
+//        RemoteWebDriver driver = new RemoteWebDriver(
+//                URI.create("http://192.168.1.10:4444/wd/hub").toURL(),
+//                capabilities
+//        );
+//        System.setProperty("webdriver.chrome.driver",".\\src\\main\\resources\\chromedriver.exe");
+//        WebDriver driver = new ChromeDriver();
 
-        driver.get("http://www.baidu.com");
-        driver.manage().window().maximize();
+        getDriver.getDriver().get("http://www.baidu.com");
+        getDriver.getDriver().manage().window().maximize();
 //        new WebDriverWait(driver, 300).until(driver -> ((JavascriptExecutor) driver)
 //                .executeScript("return document.readyState").equals("complete"));
-        driver.findElement(By.id("kw")).sendKeys("豆瓣");
-        driver.findElement(By.id("su")).click();
+        GetDriver.getDriver().findElement(By.id("kw")).sendKeys("豆瓣");
+        GetDriver.getDriver().findElement(By.id("su")).click();
         Thread.sleep(2000);
 //        driver.findElement(By.xpath("//*[@id=\"1\"]/h3/a[1]/em")).click();
         Thread.sleep(5000);
 
-        JavascriptExecutor jexec = driver;
-
-        long width = (long) jexec.executeScript("return document.body.scrollWidth");
-        long height = (long) jexec.executeScript("return document.body.scrollHeight");
+//        JavascriptExecutor jexec = driver;
+//
+//        long width = (long) jexec.executeScript("return document.body.scrollWidth");
+//        long height = (long) jexec.executeScript("return document.body.scrollHeight");
         //设置浏览窗口大小
-        driver.manage().window().setSize(new Dimension((int) width, (int) height));
-        Screenshot screenshot = new AShot().coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(driver);
+        getDriver.getDriver().manage().window().maximize();
+        Screenshot screenshot = new AShot().coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(getDriver.getDriver());
         BufferedImage image = screenshot.getImage();
         ImageIO.write(image, "PNG", new File("D:\\temp\\" + "AShot_BBC_Entire.png"));
-        driver.quit();
+        getDriver.getDriver().quit();
 
     }
 

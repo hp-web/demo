@@ -5,6 +5,7 @@
     <listeners>
         <listener class-name="com.example.listener.ExtentTestNGIReporterListener"/>
     </listeners>
+    <parameter name="chromeDriver" value=".\src\main\resources\chromedriver.exe"/>
 
     <test name="baidu_page">
         <classes>
