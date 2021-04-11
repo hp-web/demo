@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="baidu" >
+    <listeners>
+        <listener class-name="com.example.listener.ExtentTestNGIReporterListener"/>
+    </listeners>
+    <parameter name="chromeDriver" value=".\src\main\resources\chromedriver.exe"/>
+
+    <test name="baidu_page">
+        <classes>
+            <!--<class name="com.example.demo.DemoApplicationTests"></class>-->
+            <class name="com.example.demo.Test_01"/>
+        </classes>
+    </test>
+
+
+
+
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<suite name="thread" parallel="tests" thread-count="2">
+    <test name="multi">
+        <classes>
+            <class name = "com.testng.study.multiThreads.ThreadTest"/>
+        </classes>
+    </test>
+    <test name="multi2">
+        <classes>
+            <class name = "com.testng.study.multiThreads.ThreadTest"/>
+        </classes>
+    </test>
+</suite>

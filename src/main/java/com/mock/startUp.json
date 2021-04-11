@@ -1,0 +1,54 @@
+[
+  {
+    "description": "mock例子",
+    "request": {
+      "uri": "/demo"
+    },
+    "response": {
+      "text": "mock接口响应测试",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description": "华鹏",
+    "request": {
+      "uri": "/post/with/headers",
+      "method": "post",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "json": {
+        "name": "huapeng"
+      }
+    },
+    "response": {
+      "json": {
+        "status": "1",
+        "hua": "success",
+        "obj":"请求成功"
+      }
+    }
+  },
+  {
+    "description": "get cookies",
+    "request": {
+      "uri": "/getCookies",
+      "method": "get"
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      },
+      "cookies": {
+        "login": "true",
+        "values": "123456"
+        },
+      "text": "恭喜你获取cookies信息成功"
+    }
+  }
+
+
+
+]

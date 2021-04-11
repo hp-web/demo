@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="baidu" >
+
+<!--    <listeners>
+        <listener class-name="com.example.listener.ExtentTestNGIReporterListener"/>
+    </listeners>-->
+
+<!--    <parameter name="chromeDriver" value=".\src\main\resources\chromedriver.exe"/>-->
+
+<!--    <test name="api_test">-->
+<!--        <classes>-->
+<!--            &lt;!&ndash;<class name="com.example.demo.DemoApplicationTests"></class>&ndash;&gt;-->
+<!--            <class name="com.testng.study.BasicAnnotation"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="api_test">
+        <classes>
+            <!--<class name="com.example.demo.DemoApplicationTests"></class>-->
+            <class name="com.testng.study.suite.SuiteConfig"/>
+            <class name="com.testng.study.suite.LoginTest"></class>
+        </classes>
+
+
+    </test>
+    <test name="pay_test">
+        <classes>
+            <!--<class name="com.example.demo.DemoApplicationTests"></class>-->
+            <class name="com.testng.study.suite.SuiteConfig"/>
+            <class name="com.testng.study.suite.PayTest"></class>
+        </classes>
+
+
+    </test>
+</suite>

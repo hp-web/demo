@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="conf/dbconfig.properties">
+    </properties>
+    <!-- -->
+    <environments default="sql server">
+        <environment id="sql server">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="UNPOOLED">
+                <property name="driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+                <property name="url" value="jdbc:sqlserver://192.168.1.4:1433;databaseName=demo" />
+                <property name="username" value="SA" />
+                <property name="password" value="feifei!@#123" />
+            </dataSource>
+        </environment>
+        <environment id="development">
+            <transactionManager type="JDBC" />
+            <!-- 配置数据库连接信息 -->
+            <dataSource type="UNPOOLED">
+                <property name="driver" value="${JDBC.driver}" />
+                <property name="url" value="jdbc:mysql://192.168.1.4:3306/mybatis?useUnicode=true&amp;characterEncoding=utf8" />
+                <property name="username" value="root" />
+                <property name="password" value="123456" />
+            </dataSource>
+        </environment>
+    </environments>
+    <!--指定配置文件路径-->
+    <mappers>
+        <mapper resource="mapper/countryMapper.xml"/>
+    </mappers>
+</configuration>
